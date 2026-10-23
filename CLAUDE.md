@@ -66,6 +66,22 @@ App web adaptada a celular que analiza partidas de League of Legends y le asigna
 - No promover jugar más horas: los logros premian cumplir el plan y descansar, no el tiempo de juego.
 - Cumplir las políticas para desarrolladores de Riot Games.
 
+## Tecnología
+
+- App web con **Vite + React** y CSS propio. Gráficas y minimapa en SVG propio.
+- **GitHub:** repositorio privado `ggym`.
+- **Netlify:** se publica sola con cada cambio en GitHub. Las llaves van como variables de entorno.
+- **Supabase:**
+  - inicio de sesión por correo con enlace mágico
+  - tablas `perfil`, `partidas` (máx. 5), `bienestar`, `ejercicios_hechos` y `consentimientos`
+  - seguridad por usuario (RLS)
+  - botón "Borrar mis datos"
+- **Tokens:**
+  - Se crean con `gh auth login`, `netlify login` y `supabase login`; el usuario solo hace clic en "Autorizar".
+  - Nunca se escriben en el código, en GitHub ni en el chat. Los valores locales van en `.env.local`.
+  - La llave secreta de Supabase nunca va en la app.
+- Plan por fases en `docs/PLAN.md`. Al cerrar cada fase, actualizar `docs/PROGRESO.md` y darle al usuario el mensaje para la siguiente fase.
+
 ## Pendientes
 
 - Verificar que el nombre "GGym" no esté registrado como marca ni usado por otra app.
