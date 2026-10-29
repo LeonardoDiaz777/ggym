@@ -1,0 +1,17 @@
+{
+  "name": "GGym · Entrena como atleta",
+  "short_name": "GGym",
+  "description": "Analiza tus partidas de League of Legends y te da un plan de entrenamiento semanal para subir de rango.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#16122F",
+  "theme_color": "#241D55",
+  "icons": [
+    { "src": "iconos/icono-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "iconos/icono-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "iconos/icono-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
