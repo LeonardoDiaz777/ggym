@@ -655,7 +655,7 @@ function tarjetaPro() {
       <li>${icono('check', 14)} Plan completo periodizado de 6 semanas</li>
       <li>${icono('check', 14)} Bienestar avanzado y sin anuncios</li>
     </ul>
-    <button type="button" class="boton boton-blanco" data-accion="pro">${perfil.pro ? 'Volver a la versión gratis' : 'Probar Pro · [PRECIO]/mes'}</button>
+    <button type="button" class="boton boton-blanco" data-accion="pro">${perfil.pro ? 'Volver a la versión gratis' : 'Probar Pro · COP 14.900/mes'}</button>
     <span class="mini">Demostración: no se hace ningún cobro.</span>
   </div>`;
 }

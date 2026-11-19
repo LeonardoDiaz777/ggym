@@ -17,7 +17,7 @@ App web adaptada a celular que analiza partidas de League of Legends y le asigna
 - Público: Latinoamérica primero, todo el texto de la app en español.
 - Modelo freemium:
   - **Gratis:** análisis de la última partida, 3 falencias y plan básico.
-  - **Pro:** tendencia de las últimas 5 partidas, plan completo periodizado, bienestar avanzado, sin anuncios. El precio aún no está definido: usa `[PRECIO]`.
+  - **Pro:** tendencia de las últimas 5 partidas, plan completo periodizado, bienestar avanzado, sin anuncios. Precio: COP 14.900 al mes (menos que media hora de un coach amateur, que cobra USD 10–30 por hora).
 - **Por ahora usa datos de ejemplo.** No conectes la API de Riot todavía; deja preparado un módulo aparte donde se conectará después.
 - Fuera de alcance: análisis de video, chat o comunidad, pagos reales, otros juegos.
 
@@ -69,5 +69,4 @@ App web adaptada a celular que analiza partidas de League of Legends y le asigna
 ## Pendientes
 
 - Verificar que el nombre "GGym" no esté registrado como marca ni usado por otra app.
-- Definir el precio de GGym Pro.
 - Solicitar la clave de desarrollador de Riot cuando se pase de datos de ejemplo a datos reales.

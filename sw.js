@@ -1,6 +1,6 @@
 // Permite que GGym funcione sin conexión una vez instalada.
 // Cambia VERSION cada vez que publiques cambios para que los celulares descarguen la nueva versión.
-const VERSION = 'ggym-v1';
+const VERSION = 'ggym-v2';
 const ARCHIVOS = [
   './',
   './index.html',
